@@ -35,9 +35,10 @@ h2 {
 p {
     background: #7FFF00;
     color: black;
-    padding: 30px 200px;
-    margin-left: 140px;
-    margin-right: 140px;
+    padding: 30px 100px;
+    margin-left: 380px;
+    margin-right: 380px;
+    font-size: 14px
 }
 
 h3 {
@@ -95,7 +96,7 @@ li a:hover:not(.active) {
 }
 
 img.resize {
-  width:1200px;
+  width: 650px;
   height:auto;
 
 }
