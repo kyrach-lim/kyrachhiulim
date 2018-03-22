@@ -35,7 +35,9 @@ h2 {
 p {
     background: #7FFF00;
     color: black;
-    padding: 30px;
+    padding: 30px 200px;
+    margin-left: 140px;
+    margin-right: 140px;
 }
 
 h3 {
