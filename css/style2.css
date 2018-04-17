@@ -1,6 +1,6 @@
 body
     {
-        background-color:yellow;
+        background-color: black;
         font-family: courier new;
 }
 
@@ -22,13 +22,13 @@ li {
 }
 
 h1 {
-    color: blue;
+    color: red;
     font-family: courier;
-    font-size: 64px; 
+    font-size: 84px; 
     } 
 
 h2 {
-    color: blue;
+    color: red;
     font-family: courier;
 }
 
@@ -88,23 +88,44 @@ li a {
 }
 
 li a:hover:not(.active) {
-    background-color: yellow;
+    background-color: black;
 }
 
 .active {
     background-color: #4CAF50;
 }
 
-img.resize {
-  width: 650px;
+img.door1 {
+  width: 300px;
   height:auto;
+  margin-top: -150px;
+  float: left;
+  margin-left: 100px;
 
 }
 
-img {
+img.door2 {
+  position: absolute;
+   top: 50%;
+   left: 50%;
+   width: 300px;
+   height: auto;
+   margin-top: -150px; /* Half the height */
+   margin-left: -150px; /* Half the width */
+}
+
+img.door3 {
+  width: 300px;
+  height:auto;
+  margin-top: -150px;
+  margin-right: 100px;
+  float: right;
+
+}
+
+.center {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
+    width: 50%;
 }
-
