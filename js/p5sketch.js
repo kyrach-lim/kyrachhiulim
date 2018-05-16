@@ -4,8 +4,11 @@ var x, y;
 var r, g, b;
 
 function setup() {
-  createCanvas (600,400);  
-	background (255,182,193);
+  createCanvas (windowWidth,windowHeight);
+
+ 
+
+	background (255,255,0);
   // Starts in the middle
   x = width / 2;
   y = height;
