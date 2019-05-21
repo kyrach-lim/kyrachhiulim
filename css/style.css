@@ -11,6 +11,24 @@ header {
     padding: 20px;
 }
 
+nav {
+  margin: 20px auto;
+  padding: auto;
+  text-align: center;
+}
+
+ul {
+    list-style-type: none outside none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #7FFF00;
+    position: relative;
+    text-align: center;
+
+
+  }
+
 ul, a {
     color: black;
 }
@@ -20,6 +38,9 @@ li {
     color: black;
     background: #7FFF00;
     padding: 15px;
+    margin: 0 10px;
+    display: inline;
+    float: center;
 }
 
 h1 {
@@ -63,14 +84,6 @@ footer {
     margin: 26px;
 }
 
-ul {
-    list-style-type: none;
-    margin: auto;
-    padding: auto;
-    overflow: hidden;
-    background-color: #7FFF00;
-    display: inline-block;
-}
 
 li {
     float: left;
@@ -108,10 +121,4 @@ img {
     margin-left: auto;
     margin-right: auto;
     width: 40%;
-}
-
-nav {
-  margin: 20px auto;
-  padding: auto;
-  text-align: center;
 }
