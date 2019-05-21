@@ -7,7 +7,7 @@ body
 header {
     background: red;
     color: black;
-    font-size: 72px; 
+    font-size: 72px;
     padding: 20px;
 }
 
@@ -25,8 +25,8 @@ li {
 h1 {
     color: blue;
     font-family: courier;
-    font-size: 64px; 
-    } 
+    font-size: 64px;
+    }
 
 h2 {
     color: blue;
@@ -65,10 +65,11 @@ footer {
 
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: auto;
+    padding: auto;
     overflow: hidden;
     background-color: #7FFF00;
+    display: inline-block;
 }
 
 li {
@@ -109,3 +110,8 @@ img {
     width: 40%;
 }
 
+nav {
+  margin: 20px auto;
+  padding: auto;
+  text-align: center;
+}
