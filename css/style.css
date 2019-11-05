@@ -36,6 +36,13 @@ margin: 1px;
 
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 audio {
    display:none;
 }
