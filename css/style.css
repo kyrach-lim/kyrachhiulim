@@ -3,7 +3,7 @@ body {
   background-color: white;
   font-family: courier;
   margin: 0;
-} 
+}
 
 h1 {
   color: black;
@@ -36,6 +36,9 @@ margin: 1px;
 
 }
 
+audio {
+   display:none;
+}
 
 
 h3 {
@@ -85,9 +88,13 @@ a:hover {
   border-style: dotted;
   border-color: white;
   border-width: medium;
-}
-{
   box-sizing: border-box;
+}
+
+.box-0 {
+  border-style: dotted;
+  border-color: white;
+
 }
 
 body {

@@ -6,7 +6,7 @@ let images = [];
 let amt, startColor, newColor;
 
 function preload() {
-  lid = loadImage('images/lid.png');
+  lid = loadImage('images/lid1.png');
   for (let i = 0; i < 3; i++) {
     images[i] = loadImage(`images/eye${i}.png`);
   }
