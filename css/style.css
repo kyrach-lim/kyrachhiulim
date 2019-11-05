@@ -10,12 +10,30 @@ h1 {
   font-family: courier;
   font-size: 3vw;
   text-align: center;
+  margin-left: 25vw;
+ margin-right: 25vw;
+ border-width: 1px;
+ border-style: solid;
+ border-color: black;
 
 }
 h2 {
 
   font-family: courier;
   color: white;
+  margin-left: 25vw;
+ margin-right: 25vw;
+ border-width: 1px;
+ border-style: solid;
+ border-color: black;
+}
+
+h4 {
+  margin-left: 25vw;
+ margin-right: 25vw;
+ border-width: 1px;
+ border-style: solid;
+ border-color: black;
 }
 
 p {
@@ -50,10 +68,14 @@ audio {
 
 h3 {
   font-family: monospace;
-    text-decoration: underline;
     color: black;
     text-align: center;
     font-size: 1.5vw;
+    margin-left: 25vw;
+   margin-right: 25vw;
+   border-width: 1px;
+   border-style: solid;
+   border-color: black;
 
 }
 
